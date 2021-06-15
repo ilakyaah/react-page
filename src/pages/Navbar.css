@@ -1,0 +1,15 @@
+.nav-menu {
+	background-color: whitesmoke;
+	width: 800px;
+	height: 100%;
+	overflow-y: auto;
+	position: fixed;
+	top: 0;
+	right: -100%;
+	transition: 850ms;
+}
+
+.nav-menu.active {
+	right: 0;
+	transition: 350ms;
+}

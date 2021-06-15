@@ -1,0 +1,104 @@
+.testlist:hover {
+	border: 1px solid transparent;
+	background-color: #f9f9f9;
+	height: 40px;
+	width: 210px;
+}
+
+.btn-icon {
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+	margin-right: 7px;
+}
+
+.no-outline:focus {
+	outline: none;
+}
+
+.topnav {
+	border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+	border-bottom: 3px solid blue;
+}
+
+.topnav a.active {
+	border-bottom: 3px solid blue;
+}
+
+.icon-3 {
+	font-size: 30px;
+	margin-top: 10px;
+	border: 1px solid white;
+	padding: 7px;
+	border-radius: 50%;
+	color: white;
+}
+
+.card-hover:hover {
+	border: 3px solid rgb(88, 88, 158);
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	right: 0;
+	background-color: #f9f9f9;
+	min-width: 3px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.card-1 {
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-1:hover {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.container1 {
+	position: relative;
+}
+
+.nav-menu {
+	background-color: blue;
+	width: 800px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: -100%;
+	transition: 850ms;
+}
+
+.nav-menu.active {
+	right: 0;
+	transition: 350ms;
+}
+
+.flexbox {
+	display: flex;
+}
+
+.left-side {
+	flex: 2;
+	padding: 20px;
+}
+
+article {
+	flex: 1;
+	background-color: white;
+	padding: 10px;
+}
